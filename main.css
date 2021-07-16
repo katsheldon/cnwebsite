@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto&family=Yomogi&display=swap');
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yomogi', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: "Amatic SC";
+    color: black;
+    font-size: 40px;
+    padding: 0.5px 20px 0.5px 70px; 
+}
+
+ul{
+    font-family: "Amatic SC";
+    color: black;
+    font-size: 40px;
+    padding: 0.5px 0.5px 0.5px 70px;  
+}
+
+a{
+    font-family: "Amatic SC";
+    color:black;
+    font-size: 40px;
+    padding: 0.5px 20px 0.5px 70px; 
+}
+
+h1{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 80px;
+    text-align: center;
+    padding: 0.5px 40px 0.5px 30px;
+}
+
+h2{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 70px;
+    padding: 0.5px 20px 0.5px 50px;
+}
+
+h3{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 70px;
+    padding: 0.5px 20px 0.5px 50px;
+}
+
+h4{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 80px;
+    text-align: center;
+}
+
+h5{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 80px;
+    text-align: center;
+}
+
+h6{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 80px;
+    text-align: center;
+}
+
+h7{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 50px;
+    text-align: center;
+}
+
+h8{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 55px;
+    text-align: left;
+    padding: 0.5px 20px 0.5px 50px;
+}
+
+h9{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 60px;
+    text-align: left;
+    padding: 0.5px 20px 0.5px 50px;
+}
+
+.what{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 40px;
+    padding: 0.5px 0.5px 0.5px 0.5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.activities{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 70px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.did{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 70px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    height: 70%;
+    padding: 20px;
+    border-radius: 0.5px;
+    border:black;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    padding: 20px;
+    border-radius: 0.5px;
+    border:black;    
+}
+
+.images2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20%;
+    padding: 20px;
+    border-radius: 0.5px;
+    border:black;    
+}
+
+.images3{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    padding: 20px;
+    border-radius: 0.5px;
+    border:black;    
+}
+
+.reptiles{
+    font-family: "Amatic SC";
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    font-size: 70px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.logo2{
+    display: flex;
+    justify-content: flex-end;
+    height: 400px;
+    padding: 15px 50px 30px 5px;
+    border-radius: 30px;
+    border:black;
+}
+
+.navbartop{
+    background-color: rgb(182, 181, 181);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.text{
+    background-color: rgb(182, 181, 181);
+    display: flex;
+    justify-content: center;
+}
+  
+.container{
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 12px; 
+    border-radius: 4px; 
+    resize: vertical 
+}
+  
+input[type=text], select, textarea {
+    font-family: "Amatic SC";
+    font-size: 30px;
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 6px; 
+    resize: vertical 
+}
+  
+input[type=submit] {
+    font-family: "Amatic SC";
+    font-size: 30px;
+    background-color: rgb(182, 181, 181);
+    color:cadetblue;
+    text-shadow: 1px 1px black;
+    padding: 12px 20px;
+    border: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(138, 138, 138);
+}
+  
+.container1 {
+    font-family: "Amatic SC";
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.text1{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
